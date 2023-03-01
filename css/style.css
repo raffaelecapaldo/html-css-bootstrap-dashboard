@@ -36,6 +36,11 @@ header {
     height: 40px;
 } 
 
+.topside ul li a:hover, .bottomside a:hover {
+    background-color: #818d99;
+}
+
+
 @media screen and (max-width:992px) {
     #sidebar {
         width: 75px;

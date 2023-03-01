@@ -64,8 +64,8 @@
         </nav>
         <main class="flex-grow-1 overflow-y-auto h-100 text-black">
             <section class="bg-primary text-white" id="mainheader">
-                <div class="container-fluid d-flex justify-content-between flex-wrap">
-                    <div class="titleplan pt-3">
+                <div class="container-fluid d-flex justify-content-between flex-wrap-reverse pt-lg-3">
+                    <div class="titleplan pt-3 order-2 order-sm-1">
                         <h3 class="d-inline-block">Boolean</h3>
                         <span class="badge rounded-pill bg-light text-dark">Piano Blaze</span>
                         <div class="titleplanbottom">
@@ -80,9 +80,14 @@
                      
 
                     </div>
-                    <div class="centerheader pt-3">
+                    <div class="centerheader pt-3 order-1 order-sm-2">
                         <p class="mb-2 fw-medium">Studenti online negli ultimi 30 minuti</p>
                         <p class="fs-2">125</p>
+                    </div>
+                    <div id="addstudent" class="pt-2 order-2 order-sm-3">
+                        <p class="fw-medium d-inline-block">Nuovo studente</p>
+                        <button type="button" class="ms-3 btn btn-outline-info border-white text-white d-inline-block">Info</button>
+
                     </div>
                 </div>
             </section>

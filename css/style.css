@@ -40,6 +40,11 @@ header {
     background-color: #818d99;
 }
 
+#addstudent {
+    padding-top:1rem;
+    padding-right:130px;
+}
+
 
 @media screen and (max-width:992px) {
     #sidebar {

@@ -34,10 +34,31 @@ header {
 
 }
 
-.bottom
-
 .rc-button {
-    padding: 2px 15px;
+    padding: 24px 15px;
+}
+
+#custom-table th,
+#custom-table tr td {
+    width: 8rem;
+    text-align: center;
+}
+
+#custom-table th:first-child,
+#custom-table tr td:first-child {
+    width: auto;
+    text-align: left;
+}
+
+#classimg {
+    width: 30px;
+    border-radius:50%;
+    padding-right:3px;
+}
+
+.rc-actionb {
+    padding:4px 8px;
+    font-size:12px;
 }
 
 @media screen and (max-width:992px) {

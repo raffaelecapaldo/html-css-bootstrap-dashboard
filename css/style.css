@@ -7,6 +7,7 @@ header {
     overflow: hidden;
     height: calc(100vh - 70px);
 }
+
 #sidebar {
     height: 100%;
     width: 140px;
@@ -14,20 +15,25 @@ header {
     background-color: #051e34;
     background-image: url("../img/sidebar-bg.png");
 }
+
 #minilogo img {
     width: 50px;
 }
+
 #searchbar {
     background-color: #e5e5e5;
 }
+
 #searchbar i {
     top: 13px;
     left: 4px;
 }
+
 #searchbar input {
     padding-left: 25px;
     height: 40px;
 }
+
 .topside ul li a:hover,
 .bottomside a:hover {
     background-color: #818d99;
@@ -40,7 +46,7 @@ header {
 
 #custom-table th,
 #custom-table tr td {
-    width:6rem;
+    width: 6rem;
     text-align: center;
 }
 
@@ -52,18 +58,18 @@ header {
 
 #classimg {
     width: 30px;
-    border-radius:50%;
-    padding-right:3px;
+    border-radius: 50%;
+    padding-right: 3px;
 }
 
 #offcanvasRight {
     width: 50%;
-    overflow-y:auto;
+    overflow-y: auto;
 }
 
 .rc-actionb {
-    padding:4px 8px;
-    font-size:12px;
+    padding: 4px 8px;
+    font-size: 12px;
 }
 
 @media screen and (max-width:992px) {
@@ -72,8 +78,7 @@ header {
     }
 }
 
-@media screen and (max-width:576px)
-{
+@media screen and (max-width:768px) and (min-width:0px) {
     #offcanvasRight {
         width: 100%;
     }

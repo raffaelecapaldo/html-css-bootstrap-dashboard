@@ -1,13 +1,14 @@
+/* HEADER HEIGHT */
 header {
     height: 70px;
 }
-
+/* WRAPPER FOR THE SIDEBAR AND MAIN */
 .wrapper {
     margin-top: 70px;
     overflow: hidden;
     height: calc(100vh - 70px);
 }
-
+/* SIDEBAR */
 #sidebar {
     height: 100%;
     width: 140px;
@@ -15,36 +16,36 @@ header {
     background-color: #051e34;
     background-image: url("../img/sidebar-bg.png");
 }
-
+/* SIZE OF THE LOGO ON TABLET-MOBILE */
 #minilogo img {
     width: 50px;
 }
-
+/* BG COLOR OF THE SEARCHBAR */
 #searchbar {
     background-color: #e5e5e5;
 }
-
+/* POSITION ABSOLUTE OF THE MAGNIFYNG GLASS IN THE SEARCHBAR */
 #searchbar i {
     top: 13px;
     left: 4px;
 }
-
+/* SEARCHBAR CUSTOMIZATION  */
 #searchbar input {
     padding-left: 25px;
     height: 40px;
 }
-
+/* HOVER */
 .topside ul li a:hover,
 .bottomside a:hover {
     background-color: #818d99;
 
 }
-
+/* STYLE BUTTON THAT TRIGGER OFFSET */
 .rc-button {
     padding: 1px 12px;
     vertical-align: middle;
 }
-
+/* CUSTOM TABLE */
 #custom-table th,
 #custom-table tr td {
     width: 6rem;
@@ -56,23 +57,23 @@ header {
     width: auto;
     text-align: left;
 }
-
+/* RESIZING OF THE IMG BEFORE EVERY "Classe n" */
 #classimg {
     width: 30px;
     border-radius: 50%;
     padding-right: 3px;
 }
-
+/* OFFCANVAS RESIZING */
 #offcanvasRight {
     width: 50%;
     overflow-y: auto;
 }
-
+/* STYLE OF THE PENCIL AND TRASH BUTTONS ON THE TABLE*/
 .rc-actionb {
     padding: 4px 8px;
     font-size: 12px;
 }
-
+/* MEDIA QUERY */
 @media screen and (max-width:992px) {
     #sidebar {
         width: 87px;

@@ -91,9 +91,33 @@
                     </div>
                     <div id="addstudent" class=" order-2 order-md-3 order-sm-2 ">
                         <p class="fw-medium d-inline-block">Nuovo studente</p>
-                        <button type="button"
-                            class=" rc-button ms-3 btn btn-outline-info border-white text-white d-inline-block"><i
+                        <button type="button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"
+                            class="rc-button ms-3 btn btn-outline-info border-white text-white d-inline-block"><i
                                 class="fw-bold fs-4 fa-light fa-plus"></i></button>
+                                <div class="offcanvas offcanvas-end vh-50" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                    <div class="offcanvas-header">
+                                      <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <div class="namesurname d-flex gap-2">
+                                        <div class="mb-3 flex-grow-1">
+                                            <label for="exampleFormControlInput1" class="form-label">Nome</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                          </div>
+                                          <div class="mb-3 flex-grow-1">
+                                            <label for="exampleFormControlInput1" class="form-label">Cognome</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                          </div>
+                                        </div>
+                                        <div class="emailpassword">
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1">@</span>
+                                                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                              </div>
+                                        </div>
+                                    </div>
+                                  </div>
                     </div>
                 </div>
             </section>

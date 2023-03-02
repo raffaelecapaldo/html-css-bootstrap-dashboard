@@ -56,6 +56,10 @@ header {
     padding-right:3px;
 }
 
+#offcanvasRight {
+    width: 80vh;
+}
+
 .rc-actionb {
     padding:4px 8px;
     font-size:12px;

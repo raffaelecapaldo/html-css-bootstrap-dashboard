@@ -53,6 +53,8 @@ header {
 #custom-table tr td {
     width: 6rem;
     text-align: center;
+    white-space: nowrap;
+
 }
 
 #custom-table th:first-child,

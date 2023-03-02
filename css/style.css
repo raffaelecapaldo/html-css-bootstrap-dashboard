@@ -35,12 +35,12 @@ header {
 }
 
 .rc-button {
-    padding: 24px 15px;
+    padding: 1px 10px;
 }
 
 #custom-table th,
 #custom-table tr td {
-    width: 8rem;
+    width:6rem;
     text-align: center;
 }
 
